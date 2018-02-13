@@ -102,6 +102,7 @@ int main(int argc, const char *argv[]){
 		}
 		Imprime(Tree, i++);
 		LimpaArvore(Tree);
+		free(Tree);
 		printf("\n");
 	}
 	return 0;
